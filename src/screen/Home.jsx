@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import CreatePostScreen from '../actions/create'
+import PostList from '../actions/get'
 
 const Home = () => {
   return (
     <View>
-        <CreatePostScreen/>
+        <PostList/>
     </View>
   )
 }
